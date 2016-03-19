@@ -1,6 +1,6 @@
 # karma-autoload
 
-Add automatically, into your Karma configuration, all dependencies defined in your package.json.
+Add automatically, into your Karma configuration, all dependencies defined in your package.json. Module on NODE > 5.0
 
 ## Getting started
 
