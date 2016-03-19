@@ -1,9 +1,10 @@
 {
   "name": "karma-autoload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Karma plugin",
   "main": "index.js",
   "dependencies": {
     "pkg-up": "^1.0.0"
-  }
+  },
+  "keywords": ["karma-plugin", "karma"]
 }
