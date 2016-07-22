@@ -1,4 +1,3 @@
-var pathLib = require('path')
 var pkgUp = require('pkg-up');
 
 var createPattern = function(path, included, served, watched) {
@@ -21,8 +20,8 @@ function initAutoload (files, config, args, logger) {
 
     var path;
     for(var key in dependencies){
-      path = pathLib.dirname(require.resolve(key)) + '/';
-      files.unshift(createPattern(path + require(path + 'package.json').main, config.included, config.served, config.watched));
+      path = require.resolve(key);
+      files.unshift(createPattern(path, config.included, config.served, config.watched));
     }
   } catch(e){
     log.error(e);
