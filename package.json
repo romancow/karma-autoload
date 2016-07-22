@@ -1,7 +1,7 @@
 {
   "name": "karma-autoload",
-  "version": "0.0.2",
-  "description": "A Karma plugin",
+  "version": "0.0.3",
+  "description": "A Karma plugin to load package.json dependencies into your Karma configuration.",
   "main": "index.js",
   "dependencies": {
     "pkg-up": "^1.0.0"
