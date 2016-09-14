@@ -1,6 +1,6 @@
 # karma-autoload
 
-Add automatically, into your Karma configuration, all dependencies defined in your package.json. Module on NODE > 5.0
+Automatically add dependepncies defined in your package.json into your Karma configuration. Module on NODE > 5.0
 
 ## Getting started
 
@@ -26,4 +26,10 @@ In the karma configuration file, you can override these parameter, with this new
 
 ```json
 autoloadFramework: {"included": false, "served": false, "watched": false},
+```
+
+Skip the autoload of a dependency by putting it's name in the "skip" option:
+
+```json
+autoloadFramework: {"skip": ["some-package"]},
 ```
