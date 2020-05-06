@@ -1,8 +1,12 @@
 {
-  "name": "karma-autoload",
+  "name": "@romancow/karma-autoload",
   "version": "0.0.4",
   "description": "A Karma plugin to load package.json dependencies into your Karma configuration.",
   "main": "index.js",
+  "repository": "git://github.com/romancow/karma-autoload.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "pkg-up": "^1.0.0"
   },
